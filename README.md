@@ -1,0 +1,1 @@
+A demo decentralized app that uses Solidity to create smart contracts and Metamask to connect to Etherium blockchain. 
