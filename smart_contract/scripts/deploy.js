@@ -8,7 +8,7 @@ const main = async () => {
 
   await contractResp.deployed();
 
-  console.log(`${contract} deployed to: ${contractResp.address}`);
+  console.log(`Trajsactions deployed to: ${contractResp.address}`);
 }
 
 const runMain = async () => {
