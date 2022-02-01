@@ -4,6 +4,7 @@ import { FaEthereum } from 'react-icons/fa';
 import { AiOutlineInfoCircle } from 'react-icons/ai';
 
 import { TransactionContext } from "../context/TransactionContext";
+import { shortenAddress } from "../../utils/shortenAddress";
 import { Loader } from ".";
 
 
@@ -82,7 +83,7 @@ const Welcome = () => {
 							</div>
 							<div>
 								<p className="text-white font-light text-sm">
-									0xsadasdad....fhahfha
+									{shortenAddress(currentAccount)}
 								</p>
 								<p className="text-white font-semibold text-lg mt-1">
 									Ethereum
